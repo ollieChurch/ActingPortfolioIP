@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+            <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+
+            <title>Isobelle Pippin - Media</title>
+            <script src="https://kit.fontawesome.com/cd8d681245.js" crossorigin="anonymous"></script>
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+            <link href='styles/stylesheet.css' rel='stylesheet'>
+    </head>
+    <body>
+        <header>
+            <div class='logo'>Isobelle Pippin</div>
+            <button class='nav_open' aria-label='open menu'>
+                <i class="fas fa-bars nav_open"></i>
+            </button>
+            <nav>
+                <div class='nav_header'>
+                    <div class='logo'>Isobelle Pippin</div>
+                    <i class="fas fa-times nav_close"></i>
+                </div>
+                
+                <a class='nav_link' href='index.html'>Home</a>
+                <a class='nav_link nav_link-active' href='media.html'>Media</a>
+                <a class='nav_link' href='#'>Creative Projects</a>
+                <a class='nav_link' href='contact.html'>Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class='pageIntro'>
+                <h2 class='pageIntro_title'>My Media Center</h2>
+                <p class='pageIntro_text'>Thanks for stopping by, here's some videos and images of my work.</p>
+            </section>
+            
+            <section class='film'>
+                <h3 class='film_title'>Film <i class="fas fa-film"></i></h3>
+                <iframe 
+                    class='videoPlayer'
+                    width="100%" 
+                    height="315" 
+                    src="https://www.youtube-nocookie.com/embed/videoseries?list=PLubW2jnoTg9tcWME9f7Y-WWQZxZaSnjbO" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen
+                ></iframe>
+                <div class='film_library'>
+                    <button class='film_library_header'>
+                        <p class='film_library_header_text'>Video Library</p>
+                        <i class="fas fa-plus film_library_header_icon"></i>
+                    </button>
+                    <div class='film_library_body'>
+                        <div class='film_library_item'>
+                            <img
+                                class='film_library_item_img'
+                                src='http://placekitten.com/150/100'
+                                alt='video thumbnail'
+                            />
+                            <p class='film_library_item_title'>Showreel 2021</p>
+                        </div>
+
+                        <div class='film_library_item'>
+                            <img
+                                class='film_library_item_img'
+                                src='http://placekitten.com/150/100'
+                                alt='video thumbnail'
+                            />
+                            <p class='film_library_item_title'>The Ride Home</p>
+                        </div>
+
+                        <div class='film_library_item'>
+                            <img
+                                class='film_library_item_img'
+                                src='http://placekitten.com/150/100'
+                                alt='video thumbnail'
+                            />
+                            <p class='film_library_item_title'>Showreel 2021</p>
+                        </div>
+
+                        <div class='film_library_item'>
+                            <img
+                                class='film_library_item_img'
+                                src='http://placekitten.com/150/100'
+                                alt='video thumbnail'
+                            />
+                            <p class='film_library_item_title'>The Ride Home</p>
+                        </div>
+
+                        <div class='film_library_item'>
+                            <img
+                                class='film_library_item_img'
+                                src='http://placekitten.com/150/100'
+                                alt='video thumbnail'
+                            />
+                            <p class='film_library_item_title'>The Ride Home</p>
+                        </div>
+
+                        <div class='film_library_item'>
+                            <img
+                                class='film_library_item_img'
+                                src='http://placekitten.com/150/100'
+                                alt='video thumbnail'
+                            />
+                            <p class='film_library_item_title'>Showreel 2021</p>
+                        </div>
+
+                        <div class='film_library_item'>
+                            <img
+                                class='film_library_item_img'
+                                src='http://placekitten.com/150/100'
+                                alt='video thumbnail'
+                            />
+                            <p class='film_library_item_title'>The Ride Home</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class='gallery'>
+                <h3 class='gallery_title'>Photos <i class="fas fa-camera-retro"></i></h3>
+                <div class='gallery_imagesContainer'>
+                    <div class='gallery_img'><img src='./images/isobelleHeadshot.jpeg' alt='' /></div>
+                    <div class='gallery_img'><img src='http://placekitten.com/200/300' alt='' /></div>
+                    <div class='gallery_img'><img src='http://placekitten.com/300/200' alt='' /></div>
+                    <div class='gallery_img'><img src='http://placekitten.com/400/600' alt='' /></div>
+                    <div class='gallery_img'><img src='http://placekitten.com/500/300' alt='' /></div>
+                    <div class='gallery_img'><img src='http://placekitten.com/200/300' alt='' /></div>
+                    <div class='gallery_img'><img src='http://placekitten.com/300/300' alt='' /></div>
+                    <div class='gallery_img'><img src='http://placekitten.com/400/200' alt='' /></div>
+                    <div class='gallery_img'><img src='http://placekitten.com/400/400' alt='' /></div>
+                </div>
+            </section>  
+
+        </main>
+
+        <footer>
+            <div class='footerContainer'>
+                <h2 class='footer_title'>Don't be shy, say hello!</h2>
+                
+                <form class='footer_contactForm'>
+                    <input 
+                        class='footer_contactForm_input footer_contactForm_input-name' 
+                        type='text' 
+                        placeholder='name' 
+                    />
+                    <input 
+                        class='footer_contactForm_input footer_contactForm_input-email' 
+                        type='email' 
+                        placeholder='email' 
+                    />
+                    <textarea 
+                        class='footer_contactForm_input footer_contactForm_input-msg'
+                        placeholder='message'
+                        style='resize: none;'
+                    ></textarea>
+                    <div class='footer_contactForm_base'>
+                        <button class='footer_contactForm_btn' type='submit'>Send</button>
+                        <div class='logo logo-footer'>Isobelle Pippin</div>
+                    </div>
+                </form>
+                
+            </div>
+            <a class='designSignature' href='#'>
+                <p>Website made by Ollie 🧑‍💻</p> <p>Fuelled by tea ☕</p>
+            </a>
+        </footer>
+
+        <script src="script/nav.js" type="application/javascript"></script>
+    </body>
+</html>

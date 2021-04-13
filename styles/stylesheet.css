@@ -42,7 +42,7 @@ header {
 
 .nav_open:hover,
 .nav_open:focus {
-    color: rgb(84, 187, 221);
+    color: #f2a0d8;
 }
 
 nav {
@@ -60,7 +60,8 @@ nav {
     color: white;
     display: grid;
 
-    display: none;
+    transform: translateX(100%);
+    transition: transform 1s;
 }
 
 .nav_header {
@@ -81,6 +82,11 @@ nav {
     padding: 1em 0;
 }
 
+.nav_link-active {
+    color: black;
+    border-bottom-color: black;
+}
+
 .nav_link:hover,
 .nav_link:focus,
 .nav_close:hover,
@@ -88,6 +94,12 @@ nav {
     color: rgb(84, 187, 221);
     cursor: pointer;
     outline: none;
+}
+
+.videoPlayer {
+    border-radius: 5px;
+    max-width: 560px;
+    border: 1px solid gray;
 }
 
 footer {
@@ -114,15 +126,15 @@ footer {
 
 .footer_contactForm_input {
     margin-bottom: 1em;
-    font-size: 1rem;
-    padding: .5em .25em;
+    font-size: 1.1rem;
+    padding: .75em .5em;
     border-radius: 5px;
     border: 1px solid gray;
     font-family: inherit;
 }
 
 .footer_contactForm_input-msg {
-    height: 5em;
+    height: 10em;
 }
 
 .footer_contactForm_base {
@@ -260,12 +272,6 @@ footer {
     margin-top: 0;
 }
 
-.moreInfo_showreel {
-    border-radius: 5px;
-    max-width: 560px;
-    border: 1px solid gray;
-}
-
 #projects {
     padding: 1em;
     margin-bottom: .25em;
@@ -370,11 +376,77 @@ footer {
     padding: 1em;
 }
 
+.pageIntro_title,
+.pageIntro_text {
+    margin: 0
+}
+
+.pageIntro_title {
+    margin: 0 0 .5em 0;
+}
+
+.film_title,
+.gallery_title {
+    font-size: 2rem;
+    margin: 0 0 .5em 0;
+}
+
 .film {
     background: #f2a0d8;
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
     padding: 1em;
+}
+
+.film_library {
+    margin-top: 1em;
+}
+
+.film_library_header {
+    background:rgba(255, 255, 255, .75);
+    border: 1px solid gray;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5em;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+.film_library_header_text {
+    margin: 0;
+    padding: 0;
+    font-size: 1.25rem;
+}
+
+.film_library_header_icon {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.film_library_body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    grid-gap: 1em 0;
+    text-align: center;
+    padding: 1em 0 1em 0;
+    background:rgba(255, 255, 255, .5);
+    border: 1px solid gray;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.film_library_item_img {
+    height: 100px;
+    width: 150px;
+    border: 1px solid gray;
+}
+
+.film_library_item_title {
+    margin: 0;
 }
 
 .gallery {
@@ -408,4 +480,51 @@ footer {
     opacity: .75;
     transform: scale(1.25);
     overflow: hidden;
+}
+
+/* CONTACT PAGE */
+
+.contact_email {
+    background: #f2a0d8;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 1em;
+}
+
+.contact_agent {
+    padding: 1em;
+}
+
+.agent_title {
+    margin: 0;
+}
+
+.agent_card {
+    margin: 1em 1em 0 1em;
+    background:rgba(242, 160, 216, .5);
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+.agent_card * {
+    margin: 0;
+}
+
+.agent_name {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: .5em;
+}
+
+.agent_address,
+.agent_phone,
+.agent_email,
+.agent_website {
+    margin-bottom: .15em;
+}
+
+.logo-contact {
+    text-align: center;
+    font-size: 2rem;
 }

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+
+        <title>Isobelle Pippin - Contact</title>
+        <script src="https://kit.fontawesome.com/cd8d681245.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+        <link href='styles/stylesheet.css' rel='stylesheet'>
+    </head>
+
+    <body>
+        <header>
+            <div class='logo'>Isobelle Pippin</div>
+            <button class='nav_open' aria-label='open menu'>
+                <i class="fas fa-bars nav_open"></i>
+            </button>
+            <nav>
+                <div class='nav_header'>
+                    <div class='logo'>Isobelle Pippin</div>
+                    <i class="fas fa-times nav_close"></i>
+                </div>
+                
+                <a class='nav_link' href='index.html'>Home</a>
+                <a class='nav_link' href='media.html'>Media</a>
+                <a class='nav_link' href='#'>Creative Projects</a>
+                <a class='nav_link nav_link-active' href='contact.html'>Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class='pageIntro'>
+                <h2 class='pageIntro_title'>Let's Work Together</h2>
+                <p class='pageIntro_text'>I'm currently available for acting work and new creative projects. I cant wait to hear from you.</p>
+            </section>
+            
+            <div class='socialsContainer'>
+                <button class='socials_btn' aria-label='twitter'><i class="fab fa-instagram"></i></button>
+                <button class='socials_btn' aria-label='instagram'><i class="fab fa-twitter"></i></button>
+                <button class='socials_btn' aria-label='spotlight'>
+                    <img src='./images/spotlight_logo.png' alt='spotlight logo' />
+                </button>
+            </div>
+            <section class='contact_email'>
+                <form class='footer_contactForm'>
+                    <input 
+                        class='footer_contactForm_input footer_contactForm_input-name' 
+                        type='text' 
+                        placeholder='name' 
+                    />
+                    <input 
+                        class='footer_contactForm_input footer_contactForm_input-email' 
+                        type='email' 
+                        placeholder='email' 
+                    />
+                    <textarea 
+                        class='footer_contactForm_input footer_contactForm_input-msg'
+                        placeholder='message'
+                        style='resize: none;'
+                    ></textarea>
+                    <div class='footer_contactForm_base'>
+                        <button class='footer_contactForm_btn' type='submit'>Send</button>
+                    </div>
+                </form>
+            </section>
+            
+            <section class='contact_agent'>
+                <h2 class='agent_title'>You can also contact my agent:</h2>
+                <div class='agent_card'>
+                    <p class='agent_name'>Union Management</p>
+                    <p class='agent_address'>Kemp House, 152-160 City Road, London, EC1V 2NX</p>
+                    <p class='agent_phone'>Tel: 07852 303181</p>
+                    <p class='agent_email'>hello@unionmanagement.co.uk</p>
+                    <a class='agent_website' href='https://www.unionmanagement.co.uk/partners/isobelle-pippin/'>
+                        www.unionmanagement.co.uk
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class='footerContainer'>
+                <div class='logo logo-contact'>Isobelle Pippin</div>
+            </div>
+            <a class='designSignature' href='#'>
+                <p>Website made by Ollie 🧑‍💻</p> <p>Fuelled by tea ☕</p>
+            </a>
+        </footer>
+
+        <script src="script/nav.js" type="application/javascript"></script>
+    </body>
+</html>
