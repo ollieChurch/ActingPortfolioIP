@@ -3,8 +3,8 @@ const navClose = document.querySelector('.nav_close')
 const navMenu = document.querySelector('nav')
 const navLinks = document.querySelectorAll('.nav_link')
 
-navOpen.addEventListener('click', () => toggleMenu(true))
-navClose.addEventListener('click', () => toggleMenu(false))
+navOpen.addEventListener('click', () => toggleMenu(true), {passive: true})
+navClose.addEventListener('click', () => toggleMenu(false), {passive: true})
 
 // navLinks.forEach(link => {
 //     link.addEventListener('click', () => toggleMenu(false))

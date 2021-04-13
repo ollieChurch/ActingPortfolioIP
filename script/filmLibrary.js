@@ -12,4 +12,4 @@ libraryToggle.addEventListener('click', () => {
     libraryBody.style.height = heightChange
     libraryToggleIcon.style.transform = `rotate(${iconRotate})`
     libraryOpen = !libraryOpen
-})
+}, {passive: true})

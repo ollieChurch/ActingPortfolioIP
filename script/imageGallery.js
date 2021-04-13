@@ -66,7 +66,7 @@ imageData.forEach(image => {
 
     newContainer.classList.add('gallery_img')
     newContainer.append(newImage)
-    newContainer.addEventListener('click', () => showImage(image))
+    newContainer.addEventListener('click', () => showImage(image), {passive: true})
 
     galleryContainer.append(newContainer)
 })
@@ -87,4 +87,4 @@ function showImage(image) {
 
 popUpClose.addEventListener('click', () => {
     popUpContainer.style.display = 'none'
-})
+}, {passive: true})
