@@ -12,7 +12,7 @@
 
     <body>
         <header>
-            <div class='logo'>Isobelle Pippin</div>
+            <a class='logo logo-header' href='index.html'>Isobelle Pippin</a>
             <button class='nav_open' aria-label='open menu'>
                 <i class="fas fa-bars nav_open"></i>
             </button>
@@ -36,12 +36,13 @@
             </section>
             
             <div class='socialsContainer'>
-                <button class='socials_btn' aria-label='twitter'><i class="fab fa-instagram"></i></button>
-                <button class='socials_btn' aria-label='instagram'><i class="fab fa-twitter"></i></button>
-                <button class='socials_btn' aria-label='spotlight'>
+                <button class='socials_btn' id='socialBtn-instagram' aria-label='instagram'><i class="fab fa-instagram"></i></button>
+                <button class='socials_btn' id='socialBtn-twitter' aria-label='twitter'><i class="fab fa-twitter"></i></button>
+                <button class='socials_btn' id='socialBtn-spotlight' aria-label='spotlight'>
                     <img src='./images/spotlight_logo.png' alt='spotlight logo' />
                 </button>
             </div>
+
             <section class='contact_email'>
                 <form class='footer_contactForm'>
                     <input 
@@ -89,5 +90,6 @@
         </footer>
 
         <script src="script/nav.js" type="application/javascript"></script>
+        <script src="script/socialsContainer.js" type="application/javascript"></script>
     </body>
 </html>
