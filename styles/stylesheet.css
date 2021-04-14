@@ -168,6 +168,11 @@ footer {
     color: #c57faf;
 }
 
+.contactForm_success {
+    display: none;
+    text-align: center;
+}
+
 .logo-footer {
     text-align: right;
     font-size: 1.5rem;
