@@ -22,5 +22,7 @@ const socialButtons = [
 ]
 
 socialButtons.forEach(link => {
-    link.btn.addEventListener('click', () => window.open(link.site), {passive: true})
+    if (link.btn) {
+        link.btn.addEventListener('click', () => window.open(link.site), {passive: true})
+    }
 })

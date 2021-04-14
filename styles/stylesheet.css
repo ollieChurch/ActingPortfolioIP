@@ -124,13 +124,13 @@ footer {
     text-align: center;
 }
 
-.footer_contactForm {
+.contactForm {
     display: flex;
     flex-direction: column;
     margin: 0;
 }
 
-.footer_contactForm_input {
+.contactForm_input {
     margin-bottom: 1em;
     font-size: 1.1rem;
     padding: .75em .5em;
@@ -140,17 +140,17 @@ footer {
     cursor: text;
 }
 
-.footer_contactForm_input-msg {
+.contactForm_input-msg {
     height: 10em;
 }
 
-.footer_contactForm_base {
+.contactForm_base {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.footer_contactForm_btn {
+.contactForm_btn {
     width: 25%;
     padding: 0.5em 1.2em;
     cursor: pointer;
@@ -162,8 +162,8 @@ footer {
     margin: 0 0 1em 0;
 }
 
-.footer_contactForm_btn:hover,
-.footer_contactForm_btn:focus {
+.contactForm_btn:hover,
+.contactForm_btn:focus {
     background: rgb(184, 184, 184);
     color: #c57faf;
 }

@@ -1,4 +1,4 @@
-const contactForm = document.querySelector('.footer_contactForm')
+const contactForm = document.querySelector('.contactForm')
 const successMessage = document.querySelector('.contactForm_success')
 
 contactForm.addEventListener('submit', handleSubmit)
