@@ -154,21 +154,37 @@
             <div class='footerContainer'>
                 <h2 class='footer_title'>Don't be shy, say hello!</h2>
                 
-                <form class='footer_contactForm'>
+                <form 
+                    class='footer_contactForm' 
+                    name='contact-home' 
+                    subject='website contact' 
+                    method='POST'
+                    data-netlify='true'
+                    netlify-honeypot='bot-field'
+                >
+                    <div hidden aria-hidden="true">
+                        <label>
+                            Don’t fill this out if you're human: 
+                            <input name="bot-field" />
+                        </label>
+                    </div>
                     <input 
                         class='footer_contactForm_input footer_contactForm_input-name' 
                         type='text' 
-                        placeholder='name' 
+                        placeholder='name'
+                        name='contact-name' 
                     />
                     <input 
                         class='footer_contactForm_input footer_contactForm_input-email' 
                         type='email' 
                         placeholder='email' 
+                        name='contact-email'
                     />
                     <textarea 
                         class='footer_contactForm_input footer_contactForm_input-msg'
                         placeholder='message'
                         style='resize: none;'
+                        name='contact-msg'
                     ></textarea>
                     <div class='footer_contactForm_base'>
                         <button class='footer_contactForm_btn' type='submit'>Send</button>
@@ -184,6 +200,6 @@
 
         <script src="script/nav.js" type="application/javascript"></script>
         <script src="script/socialsContainer.js" type="application/javascript"></script>
-
+        <script src="script/contactForm.js" type="application/javascript"></script>
     </body>
 </html>
