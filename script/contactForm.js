@@ -4,7 +4,8 @@ contactForm.addEventListener('submit', handleSubmit)
 
 function handleSubmit(e) {
     e.preventDefault()
-    let myForm = document.getElementById('#contactForm');
+    let myForm = document.getElementById('contactForm');
+    console.log(myForm)
     let formData = new FormData(myForm)
     fetch('/', {
       method: 'POST',
