@@ -2,7 +2,7 @@ const contactForm = document.querySelector('.footer_contactForm')
 
 contactForm.addEventListener('submit', handleSubmit)
 
-const handleSubmit = (e) => {
+function handleSubmit(e) {
     e.preventDefault()
     let myForm = document.getElementById('pizzaOrder');
     let formData = new FormData(myForm)
