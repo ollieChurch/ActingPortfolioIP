@@ -19,7 +19,7 @@ collections:
             widget: "list"
             collapsed: true
             fields:
-              - label: "Job",
+              - label: {"Job",
                 name: "job",
                 widget: "object"
                 fields:
@@ -29,5 +29,6 @@ collections:
                   - {label: "Role", name: "role", widget: "string"}
                   - {label: "Company", name: "company", widget: "string"}
                   - {label: "Director", name: "director", widget: "string"}
+              }
 
 site_url: https://isobellepippin.netlify.app
