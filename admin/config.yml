@@ -1,0 +1,30 @@
+backend:
+  name: github
+  repo: Squeak-Paradox/IsobellePippin # Path to your GitHub repository
+
+media_folder: "images/uploads"
+
+collections:
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Home Page"
+        name: "about"
+        file: "IsobellePippin/content/about.json"
+        fields:
+          - {label: About Title, name: title, widget: string}
+          - {label: About Me, name: aboutBody, widget: string}
+      # - label: "Locations Page"
+      #   name: "locations"
+      #   file: "site/content/locations.yml"
+      #   fields:
+      #     - {label: Title, name: title, widget: string}
+      #     - {label: Intro, name: intro, widget: markdown}
+      #     - label: Locations
+      #       name: locations
+      #       widget: list
+      #       fields:
+      #         - {label: Name, name: name, widget: string}
+      #         - {label: Address, name: address, widget: string}
+
+site_url: https://isobellepippin.netlify.app
