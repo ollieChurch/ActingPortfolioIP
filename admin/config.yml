@@ -19,15 +19,15 @@ collections:
         widget: "list"
         collapsed: true
         fields:
-          - label: "Job",
-            name: "job",
-            widget: "object"
-            fields:
-              - {label: "Name", name: "name", widget: "string"}
-              - {label: "Year", name: "year", widget: "string"}
-              - {label: "Type", name: "type", widget: "string"}
-              - {label: "Role", name: "role", widget: "string"}
-              - {label: "Company", name: "company", widget: "string"}
-              - {label: "Director", name: "director", widget: "string"}
+          label: "Job",
+          name: "job",
+          widget: "object"
+          fields:
+            - {label: "Name", name: "name", widget: "string"}
+            - {label: "Year", name: "year", widget: "string"}
+            - {label: "Type", name: "type", widget: "string"}
+            - {label: "Role", name: "role", widget: "string"}
+            - {label: "Company", name: "company", widget: "string"}
+            - {label: "Director", name: "director", widget: "string"}
 
 site_url: https://isobellepippin.netlify.app
