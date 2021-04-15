@@ -9,21 +9,25 @@ collections:
     name: "pages"
     files:
       - label: "Home Page"
-        name: "about"
-        file: "content/about.json"
+        name: "home"
+        file: "content/home.json"
         fields:
           - {label: About Me, name: aboutBody, widget: string}
-      # - label: "Locations Page"
-      #   name: "locations"
-      #   file: "site/content/locations.yml"
-      #   fields:
-      #     - {label: Title, name: title, widget: string}
-      #     - {label: Intro, name: intro, widget: markdown}
-      #     - label: Locations
-      #       name: locations
-      #       widget: list
-      #       fields:
-      #         - {label: Name, name: name, widget: string}
-      #         - {label: Address, name: address, widget: string}
+          - {label: Currently Appearing, name: currentlyAppearing, widget: string}
+          - label: "Recent Jobs"
+            name: "recentJobs"
+            widget: "list"
+            collapsed: true
+            fields:
+              - label: "Job",
+                name: "job",
+                widget: "object"
+                fields:
+                  - {label: "Name", name: "name", widget: "string"}
+                  - {label: "Year", name: "year", widget: "string"}
+                  - {label: "Type", name: "type", widget: "string"}
+                  - {label: "Role", name: "role", widget: "string"}
+                  - {label: "Company", name: "company", widget: "string"}
+                  - {label: "Director", name: "director", widget: "string"}
 
 site_url: https://isobellepippin.netlify.app
