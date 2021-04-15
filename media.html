@@ -23,7 +23,7 @@
                 
                 <a class='nav_link' href='index.html'>Home</a>
                 <a class='nav_link nav_link-active' href='media.html'>Media</a>
-                <a class='nav_link' href='#'>Creative Projects</a>
+                <a class='nav_link' href='projects.html'>Creative Projects</a>
                 <a class='nav_link' href='contact.html'>Contact</a>
             </nav>
         </header>
@@ -103,19 +103,22 @@
                         class='contactForm_input contactForm_input-name' 
                         type='text' 
                         placeholder='name'
-                        name='contact-name' 
+                        name='contact-name'
+                        required
                     />
                     <input 
                         class='contactForm_input contactForm_input-email' 
                         type='email' 
                         placeholder='email' 
                         name='contact-email'
+                        required
                     />
                     <textarea 
                         class='contactForm_input contactForm_input-msg'
                         placeholder='message'
                         style='resize: none;'
                         name='contact-msg'
+                        required
                     ></textarea>
                     <div class='contactForm_base'>
                         <button class='contactForm_btn' type='submit'>Send</button>

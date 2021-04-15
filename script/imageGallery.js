@@ -1,54 +1,54 @@
 const imageData = [
     {
-        src: './images/isobelleHeadshot.jpeg',
+        src: 'yellowHeadshot.jpeg',
         alt: 'headshot of Isobelle Pippin',
         desc: 'Isobelle Pippin headshot',
         copy: 'Robin Savage'
     },
     {
-        src: 'http://placekitten.com/200/300',
-        alt: 'a cat',
-        desc: 'This is a cat',
-        copy: 'Puss in Boots'
+        src: 'blackHeadshot.jpeg',
+        alt: 'headshot of Isobelle Pippin',
+        desc: 'Isobelle Pippin headshot',
+        copy: 'Robin Savage'
     },
     {
-        src: 'http://placekitten.com/300/200',
-        alt: 'a cat',
-        desc: 'This is a cat 2',
-        copy: 'Puss in Boots'
+        src: 'blueHeadshot.jpeg',
+        alt: 'headshot of Isobelle Pippin',
+        desc: 'Isobelle Pippin headshot',
+        copy: 'Robin Savage'
     },
     {
-        src: 'http://placekitten.com/400/600',
-        alt: 'a cat',
-        desc: 'This is a cat 3',
-        copy: 'Puss in Boots'
+        src: 'grayHeadshot.jpeg',
+        alt: 'headshot of Isobelle Pippin',
+        desc: 'Isobelle Pippin headshot',
+        copy: 'Robin Savage'
     },
     {
-        src: 'http://placekitten.com/500/300',
-        alt: 'a cat',
-        desc: 'This is a cat 4',
-        copy: 'Puss in Boots'
+        src: 'greenHeadshot.jpeg',
+        alt: 'headshot of Isobelle Pippin',
+        desc: 'Isobelle Pippin headshot',
+        copy: 'Robin Savage'
     },
     {
-        src: 'http://placekitten.com/200/300',
-        alt: 'a cat',
-        desc: 'This is a cat 5',
-        copy: 'Puss in Boots'
+        src: 'sleevelessHeadshot.jpeg',
+        alt: 'headshot of Isobelle Pippin',
+        desc: 'Isobelle Pippin headshot',
+        copy: 'Robin Savage'
     },
     {
-        src: 'http://placekitten.com/300/300',
-        alt: 'a cat',
-        desc: 'This is a cat 6',
-        copy: 'Puss in Boots'
+        src: 'whiteHeadshot.jpeg',
+        alt: 'headshot of Isobelle Pippin',
+        desc: 'Isobelle Pippin headshot',
+        copy: 'Robin Savage'
     },
     {
-        src: 'http://placekitten.com/400/200',
+        src: 'yellowHeadshot.jpeg',
         alt: 'a cat',
         desc: 'This is a cat 7',
         copy: 'Puss in Boots'
     },
     {
-        src: 'http://placekitten.com/400/400',
+        src: 'yellowHeadshot.jpeg',
         alt: 'a cat',
         desc: 'This is a cat 8',
         copy: 'Puss in Boots'
@@ -61,7 +61,7 @@ imageData.forEach(image => {
     const newContainer = document.createElement('div')
     const newImage = document.createElement('img')
 
-    newImage.setAttribute('src', image.src)
+    newImage.setAttribute('src', `images/${image.src}`)
     newImage.setAttribute('alt', image.alt)
 
     newContainer.classList.add('gallery_img')
@@ -78,7 +78,7 @@ const popUpDesc = document.querySelector('.popUp_text')
 const popUpCopy = document.querySelector('.copyright_name')
 
 function showImage(image) {
-    popUpImg.setAttribute('src', image.src)
+    popUpImg.setAttribute('src', `images/${image.src}`)
     popUpImg.setAttribute('alt', image.alt)
     popUpDesc.textContent = image.desc
     popUpCopy.textContent = image.copy

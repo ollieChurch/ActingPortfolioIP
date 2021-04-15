@@ -27,8 +27,14 @@ const filmData = [
         thumbnailSrc: 'http://placekitten.com/100/100',
         title: 'Showreel 2021',
         youtubeSrc: 'https://www.youtube.com/embed/Dqf0QgZLeuM'
+    },
+    {
+        thumbnailSrc: 'http://placekitten.com/100/100',
+        title: 'Showreel 2021',
+        youtubeSrc: 'https://www.youtube.com/embed/Dqf0QgZLeuM'
     }
 ]
+
 const videoPlayer = document.getElementById('videoPlayer-media')
 const library = document.querySelector('.film_library_body')
 
@@ -42,6 +48,7 @@ filmData.forEach(film => {
     image.setAttribute('alt', film.title)
 
     const title = document.createElement('p')
+    title.classList.add('film_library_item_title')
     title.textContent = film.title
 
     item.append(image, title)

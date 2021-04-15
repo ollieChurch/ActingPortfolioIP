@@ -218,9 +218,12 @@ footer {
 .intro_img {
     max-width: 80%;
     max-height: 75%;
-    margin: 1em auto 1em auto;
+    margin: 1em auto 1.5em auto;
     border-radius: 5px;
     border: 1px solid gray;
+    cursor: pointer;
+    box-shadow: 0px 2px 10px gray;
+    transition: opacity 1.5s;
 }
 
 .socialsContainer {
@@ -476,6 +479,9 @@ footer {
 .film_library_item_title {
     margin: 0;
     cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .gallery {
@@ -628,4 +634,21 @@ footer {
 .logo-contact {
     text-align: center;
     font-size: 2rem;
+}
+
+/*  CONSTRUCTION COMPONENT  */
+
+.constructionContainer {
+    margin: 1em 1em 2em 1em;
+    text-align: center;
+}
+
+.construction_img {
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.construction_title {
+    margin-bottom: .5em;
 }

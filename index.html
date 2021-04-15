@@ -22,7 +22,7 @@
                 </div>
                 <a class='nav_link nav_link-active' href='index.html'>Home</a>
                 <a class='nav_link' href='media.html'>Media</a>
-                <a class='nav_link' href='#'>Creative Projects</a>
+                <a class='nav_link' href='projects.html'>Creative Projects</a>
                 <a class='nav_link' href='contact.html'>Contact</a>
             </nav>
         </header>
@@ -31,7 +31,7 @@
             <section class='intro'>
                 <img 
                     class='intro_img' 
-                    src='./images/isobelleHeadshot.jpeg' 
+                    src='./images/yellowHeadshot.jpeg' 
                     alt='headshot of Isobelle Pippin' 
                 />
 
@@ -178,18 +178,21 @@
                         type='text' 
                         placeholder='name'
                         name='contact-name' 
+                        required
                     />
                     <input 
                         class='contactForm_input contactForm_input-email' 
                         type='email' 
                         placeholder='email' 
                         name='contact-email'
+                        required
                     />
                     <textarea 
                         class='contactForm_input contactForm_input-msg'
                         placeholder='message'
                         style='resize: none;'
                         name='contact-msg'
+                        required
                     ></textarea>
                     <div class='contactForm_base'>
                         <button class='contactForm_btn' type='submit'>Send</button>
@@ -204,6 +207,7 @@
         </footer>
 
         <script src="script/nav.js" type="application/javascript"></script>
+        <script src="script/introImage.js" type="application/javascript"></script>
         <script src="script/socialsContainer.js" type="application/javascript"></script>
         <script src="script/contactForm.js" type="application/javascript"></script>
     </body>
