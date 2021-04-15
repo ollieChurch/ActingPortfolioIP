@@ -10,9 +10,8 @@ collections:
     files:
       - label: "Home Page"
         name: "about"
-        file: "IsobellePippin/content/about.json"
+        file: "content/about.json"
         fields:
-          - {label: AboutTitle, name: title, widget: string}
           - {label: About Me, name: aboutBody, widget: string}
       # - label: "Locations Page"
       #   name: "locations"
