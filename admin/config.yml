@@ -1,6 +1,6 @@
 backend:
-  name: github
-  repo: Squeak-Paradox/IsobellePippin # Path to your GitHub repository
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
 
 media_folder: "images/uploads"
 
@@ -12,7 +12,7 @@ collections:
         name: "about"
         file: "IsobellePippin/content/about.json"
         fields:
-          - {label: About Title, name: title, widget: string}
+          - {label: AboutTitle, name: title, widget: string}
           - {label: About Me, name: aboutBody, widget: string}
       # - label: "Locations Page"
       #   name: "locations"
