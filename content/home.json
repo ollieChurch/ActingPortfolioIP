@@ -1,4 +1,22 @@
 {
   "aboutBody": "This is all about me.",
-  "currentlyAppearing": "Isobelle has exceptional experience in stage and screen combat and is highly physical. When not acting Isobelle is currently administering COVID Vaccines, illustrating a play at home escape room game and preparing to run her first ultra-marathon."
+  "currentlyAppearing": "Isobelle has exceptional experience in stage and screen combat and is highly physical. When not acting Isobelle is currently administering COVID Vaccines, illustrating a play at home escape room game and preparing to run her first ultra-marathon.",
+  "recentJobs": [
+    {
+      "name": "Poop About Town",
+      "year": "2021",
+      "type": "Theatre",
+      "role": "Poop",
+      "company": "PissBums",
+      "director": "The Captain"
+    },
+    {
+      "name": "Poop About Town 2",
+      "year": "2021",
+      "type": "Film",
+      "role": "Pooper McPooperson",
+      "company": "PissBums",
+      "director": "The Captain"
+    }
+  ]
 }
