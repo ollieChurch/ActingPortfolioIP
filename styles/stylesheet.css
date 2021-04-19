@@ -354,6 +354,7 @@ footer {
 
 .job_info_label {
     font-weight: bold;
+    text-transform: capitalize;
 }
 
 .projects_spotlightContainer {
