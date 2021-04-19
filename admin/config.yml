@@ -25,6 +25,18 @@ collections:
               - {label: "Role", name: "role", widget: "string"}
               - {label: "Company", name: "company", widget: "string"}
               - {label: "Director", name: "director", widget: "string"}
+      - label: "Media Page"
+        name: "media"
+        file: "content/media.json"
+        fields:
+          - {label: Showreel URL, name: showreel, widget: string}
+          - label: "Video Library"
+            name: "videoLibrary"
+            widget: "list"
+            collapsed: false
+            fields:
+              - {label: "Video Thumbnail", name: "thumbnail", widget: "image"}
+              - {label: "Video Title", name: "title", widget: "string"}
               
-
+              
 site_url: https://isobellepippin.netlify.app
