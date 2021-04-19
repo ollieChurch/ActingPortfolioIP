@@ -40,7 +40,7 @@ collections:
             name: "imageGallery"
             widget: "list"
             fields:
-              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Image", name: "src", widget: "image"}
               - {label: "Image Description", name: "desc", widget: "string"}
               - {label: "Image Copyright", name: "copy", widget: "string"}         
               

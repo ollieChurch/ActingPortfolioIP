@@ -6,9 +6,10 @@ fetch('../content/media.json')
         data.imageGallery.forEach(image => {
             const newContainer = document.createElement('div')
             const newImage = document.createElement('img')
-
-            newImage.setAttribute('src', `images/${image.src}`)
+            
+            newImage.setAttribute('src', image.src)
             newImage.setAttribute('alt', image.desc)
+            console.log(newImage)
 
             newContainer.classList.add('gallery_img')
             newContainer.append(newImage)
@@ -25,7 +26,7 @@ const popUpDesc = document.querySelector('.popUp_text')
 const popUpCopy = document.querySelector('.copyright_name')
 
 function showImage(image) {
-    popUpImg.setAttribute('src', `images/${image.src}`)
+    popUpImg.setAttribute('src', image.src)
     popUpImg.setAttribute('alt', image.desc)
     popUpDesc.textContent = image.desc
     popUpCopy.textContent = image.copy

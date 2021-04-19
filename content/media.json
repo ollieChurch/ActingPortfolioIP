@@ -14,12 +14,12 @@
   "showreel": "https://www.youtube.com/embed/Dqf0QgZLeuM",
   "imageGallery": [
     {
-      "image": "/images/uploads/blackheadshot.jpeg",
+      "src": "/images/uploads/blackheadshot.jpeg",
       "desc": "Isobelle Pippin headshot",
       "copy": "Robin Savage"
     },
     {
-      "image": "/images/uploads/yellowheadshot.jpeg",
+      "src": "/images/uploads/yellowheadshot.jpeg",
       "desc": "Isobelle Pippin Headshot in yellow",
       "copy": "Robin Savage"
     }
