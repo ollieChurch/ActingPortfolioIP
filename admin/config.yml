@@ -8,12 +8,21 @@ collections:
   - label: "Pages"
     name: "pages"
     files:
+      - label: "Headshots"
+        name: "headshots"
+        file: "content/headshots.json"
+        fields:
+          label: "Headshot Collection"
+          name: "headshotList"
+          widget: "list"
+          fields:
+            - {label: "Image", name: "image", widget: "image"}
       - label: "Home Page"
         name: "home"
         file: "content/home.json"
         fields:
-          - {label: About Me, name: aboutBody, widget: string}
-          - {label: Currently Appearing, name: currentlyAppearing, widget: string}
+          - {label: "About Me", name: "aboutBody", widget: "string"}
+          - {label: "Currently Appearing", name: "currentlyAppearing", widget: "string"}
           - label: "Recent Jobs"
             name: "recentJobs"
             widget: "list"
