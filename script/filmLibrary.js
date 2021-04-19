@@ -1,6 +1,8 @@
+const videoPlayer = document.getElementById('videoPlayer-media')
 const libraryToggle = document.querySelector('.film_library_header')
 const libraryBody = document.querySelector('.film_library_bodyContainer')
 const libraryToggleIcon = document.querySelector('.film_library_header_icon')
+const library = document.querySelector('.film_library_body')
 let libraryOpen = false
 
 libraryToggle.addEventListener('click', () => {
@@ -12,49 +14,30 @@ libraryToggle.addEventListener('click', () => {
     libraryOpen = !libraryOpen
 }, {passive: true})
 
-const filmData = [
-    {
-        thumbnailSrc: 'http://placekitten.com/150/100',
-        title: 'Showreel 2021',
-        youtubeSrc: 'https://www.youtube.com/embed/Dqf0QgZLeuM'
-    },
-    {
-        thumbnailSrc: 'http://placekitten.com/200/300',
-        title: 'Do or Die CastMeComp',
-        youtubeSrc: 'https://www.youtube.com/embed/IRTh4F4kw1U'
-    },
-    {
-        thumbnailSrc: 'http://placekitten.com/100/100',
-        title: 'Showreel 2021',
-        youtubeSrc: 'https://www.youtube.com/embed/Dqf0QgZLeuM'
-    },
-    {
-        thumbnailSrc: 'http://placekitten.com/100/100',
-        title: 'Showreel 2021',
-        youtubeSrc: 'https://www.youtube.com/embed/Dqf0QgZLeuM'
-    }
-]
+fetch('../content/media.json')
+    .then(response => response.json())
+    .then(data => {
+        const {showreel, videoLibrary} = data
+        videoPlayer.setAttribute('src', showreel)
 
-const videoPlayer = document.getElementById('videoPlayer-media')
-const library = document.querySelector('.film_library_body')
+        videoLibrary.forEach(film => {
+            const item = document.createElement('div')
+            item.classList.add('film_library_item')
 
-filmData.forEach(film => {
-    const item = document.createElement('div')
-    item.classList.add('film_library_item')
+            const image = document.createElement('img')
+            image.classList.add('film_library_item_img')
+            image.setAttribute('src', film.thumbnail)
+            image.setAttribute('alt', film.title)
 
-    const image = document.createElement('img')
-    image.classList.add('film_library_item_img')
-    image.setAttribute('src', film.thumbnailSrc)
-    image.setAttribute('alt', film.title)
+            const title = document.createElement('p')
+            title.classList.add('film_library_item_title')
+            title.textContent = film.title
 
-    const title = document.createElement('p')
-    title.classList.add('film_library_item_title')
-    title.textContent = film.title
+            item.append(image, title)
+            item.addEventListener('click', () => {
+                videoPlayer.setAttribute('src', film.src)
+            })
 
-    item.append(image, title)
-    item.addEventListener('click', () => {
-        videoPlayer.setAttribute('src', film.youtubeSrc)
+            library.append(item)
+        })
     })
-
-    library.append(item)
-})

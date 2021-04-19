@@ -37,6 +37,7 @@ collections:
             fields:
               - {label: "Video Thumbnail", name: "thumbnail", widget: "image"}
               - {label: "Video Title", name: "title", widget: "string"}
+              - {label: "Video Src", name: "src", widget: "string"}
               
               
 site_url: https://isobellepippin.netlify.app

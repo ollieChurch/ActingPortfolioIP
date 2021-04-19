@@ -48,29 +48,3 @@ function createJobInfo(info, data) {
 
         return category
 }
-
-/* <div class='recent_job'>
-    <p class='job_name'>The Ride Home</p>
-    <div class='job_info'>
-        <p class='job_date'>
-            <span class='job_info_label'>Date</span><br />
-            2021
-        </p>
-        <p class='job_type'>
-            <span class='job_info_label'>Type</span><br />
-            film
-        </p>
-        <p class='job_role'>
-            <span class='job_info_label'>Role</span><br />
-            Ellie (lead)
-        </p>
-        <p class='job_company'>
-            <span class='job_info_label'>Company</span><br />
-            ...
-        </p>
-        <p class='job_director'>
-            <span class='job_info_label'>Director</span><br />
-            Charlie Hedger & Angie Piera
-        </p>
-    </div>
-</div> */
