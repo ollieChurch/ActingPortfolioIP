@@ -42,6 +42,24 @@ collections:
             fields:
               - {label: "Image", name: "src", widget: "image"}
               - {label: "Image Description", name: "desc", widget: "string"}
-              - {label: "Image Copyright", name: "copy", widget: "string"}         
+              - {label: "Image Copyright", name: "copy", widget: "string"}   
+      - label: "Contact Page"
+        name: "contact"
+        file: "content/contact.json"
+        fields:      
+          - label: "Agent Details"
+            name: "agent"
+            widget: "object"
+            fields: 
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Address", name: "address", widget: "string"}
+              - {label: "Phone", name: "phone", widget: "string"}
+              - {label: "Email", name: "email", widget: "string"}
+              - label: "Website"
+                name: "website"
+                widget: "object"
+                fields:
+                  - {label: "Displayed Address", name: "display", widget: "string"}
+                  - {label: "URL", name: "url", widget: "string"}
               
 site_url: https://isobellepippin.netlify.app
