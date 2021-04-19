@@ -17,7 +17,6 @@ collections:
           - label: "Recent Jobs"
             name: "recentJobs"
             widget: "list"
-            collapsed: false
             fields:
               - {label: "Name", name: "name", widget: "string"}
               - {label: "Year", name: "year", widget: "string"}
@@ -33,11 +32,16 @@ collections:
           - label: "Video Library"
             name: "videoLibrary"
             widget: "list"
-            collapsed: false
             fields:
               - {label: "Video Thumbnail", name: "thumbnail", widget: "image"}
               - {label: "Video Title", name: "title", widget: "string"}
               - {label: "Video Src", name: "src", widget: "string"}
-              
+          - label: "Image Gallery"
+            name: "imageGallery"
+            widget: "list"
+            fields:
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Image Description", name: "desc", widget: "string"}
+              - {label: "Image Copyright", name: "copy", widget: "string"}         
               
 site_url: https://isobellepippin.netlify.app
