@@ -1,10 +1,27 @@
 {
   "videoLibrary": [
     {
-      "thumbnail": "/images/uploads/crates.png",
-      "title": "Crates The Musical",
+      "thumbnail": "/images/uploads/blackheadshot.jpeg",
+      "title": "Poops The Musical",
+      "src": "https://www.youtube.com/embed/9_v8OVHhzVE"
+    },
+    {
+      "thumbnail": "/images/uploads/yellowheadshot.jpeg",
+      "title": "Poop Town 2021",
       "src": "https://www.youtube.com/embed/9_v8OVHhzVE"
     }
   ],
-  "showreel": "https://www.youtube.com/embed/Dqf0QgZLeuM"
+  "showreel": "https://www.youtube.com/embed/Dqf0QgZLeuM",
+  "imageGallery": [
+    {
+      "image": "/images/uploads/blackheadshot.jpeg",
+      "desc": "Isobelle Pippin headshot",
+      "copy": "Robin Savage"
+    },
+    {
+      "image": "/images/uploads/yellowheadshot.jpeg",
+      "desc": "Isobelle Pippin Headshot in yellow",
+      "copy": "Robin Savage"
+    }
+  ]
 }
