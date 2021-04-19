@@ -2,7 +2,8 @@
   "videoLibrary": [
     {
       "thumbnail": "/images/uploads/crates.png",
-      "title": "Crates The Musical"
+      "title": "Crates The Musical",
+      "src": "https://www.youtube.com/embed/9_v8OVHhzVE&t=2s"
     }
   ],
   "showreel": "https://www.youtube.com/embed/Dqf0QgZLeuM"
