@@ -2,6 +2,24 @@
   "headshotList": [
     {
       "image": "/images/uploads/yellowHeadshot.jpeg"
+    },
+    {
+      "image": "/images/uploads/blackheadshot.jpeg"
+    },
+    {
+      "image": "/images/uploads/blueHeadshot.jpeg"
+    },
+    {
+      "image": "/images/uploads/grayHeadshot.jpeg"
+    },
+    {
+      "image": "/images/uploads/greenHeadshot.jpeg"
+    },
+    {
+      "image": "/images/uploads/sleevelessHeadshot.jpeg"
+    },
+    {
+      "image": "/images/uploads/whiteHeadshot.jpeg"
     }
   ]
 }
