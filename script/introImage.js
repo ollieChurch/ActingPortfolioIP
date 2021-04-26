@@ -9,14 +9,12 @@ fetch('../content/headshots.json')
         console.log(headshotList)
 
         if (headshotList.length > 1) {
-            console.log('passed if statement')
             setInterval(() => {
-                console.log('setting interval')
                 mainImg.style.opacity = '0'
                 count = count + 1 < headshotList.length ? count + 1 : 0
                 setTimeout(() => {
                     mainImg.setAttribute('src', headshotList[count].image)
-                    mainImg.style.opacity = '1'
+                    setTimeout(() => { mainImg.style.opacity = '1' }, 250)
                 }, 1250)
             }, 10000)
         }
