@@ -1,5 +1,5 @@
 {
-  "aboutBody": "This is all about me.",
+  "aboutBody": "I am a little poop. Soft and squishy. Poop poop poop, all day long. I am a little poop. Soft and squishy. Poop poop poop, all day long. I am a little poop. Soft and squishy. Poop poop poop, all day long. I am a little poop. Soft and squishy. Poop poop poop, all day long.",
   "currentlyAppearing": "Isobelle has exceptional experience in stage and screen combat and is highly physical. When not acting Isobelle is currently administering COVID Vaccines, illustrating a play at home escape room game and preparing to run her first ultra-marathon.",
   "recentJobs": [
     {
@@ -16,6 +16,14 @@
       "type": "Film",
       "role": "Pooper McPooperson",
       "company": "PissBums",
+      "director": "The Captain"
+    },
+    {
+      "name": "Poops Gone Wild",
+      "year": "2021",
+      "type": "Experimental Dance",
+      "role": "The Grand Poop",
+      "company": "Pissbums",
       "director": "The Captain"
     }
   ]
