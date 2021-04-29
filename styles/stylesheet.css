@@ -500,6 +500,12 @@ footer {
 
     .moreInfo .content {
         grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1em;
+    }
+
+    .about_body {
+        max-width: 80%;
+        margin: 0 auto;
     }
 
     .job_info {
