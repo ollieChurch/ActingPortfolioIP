@@ -7,7 +7,7 @@ let libraryOpen = false
 
 libraryToggle.addEventListener('click', () => {
     const heightChange = libraryOpen ? '0' : '300px'
-    const iconRotate = libraryOpen ? '0' : '45deg'
+    const iconRotate = libraryOpen ? '0' : '135deg'
     console.log(libraryBody.style.height)
     libraryBody.style.height = heightChange
     libraryToggleIcon.style.transform = `rotate(${iconRotate})`
