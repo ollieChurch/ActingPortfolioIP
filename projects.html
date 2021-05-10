@@ -28,10 +28,106 @@
         </header>
 
         <main>
-            <div class='constructionContainer'>
+            <!-- <div class='constructionContainer'>
                 <img  class='construction_img' src='images/construction.png' alt='bulldozer'>
                 <h1 class='construction_title'>This page is under construction. 👷</h1>
                 <a class='construction_link' href='javascript:history.back()'>Head back from whence you came!</a>
+            </div> -->
+
+            <section class='pageIntro content'>
+                <h2 class='pageIntro_title'>Creative Projects</h2>
+                <p class='pageIntro_text'>From graphic art to play-at-home puzzle games. Take a look at some of my other creative projects.</p>
+            </section>
+
+            <section class='maxwellMysteries'>
+                <div class='content'>
+                    <h3 class='maxwellMysteries_title'>Maxwell Mysteries <i class="fas fa-user-secret"></i></h3>
+                    <p class='maxwellMysteries_body'>
+                        Created by me and my partner, Maxwell Mysteries is a series of play-at-home escape games set in 1930s New York and following the cases of Private Investigator Larry Maxwell.
+                    </p>
+                    
+                    <div class='maxwellMysteries_products'>
+                        <div class="product">
+                            <h3 class="product_title">The Disappearing Diamond</h3>
+                            <p class="product_gameType">This is a <span class="gameType_highlight">'print and play'</span> game</p>
+                            <iframe 
+                                class='videoPlayer' 
+                                width="100%" 
+                                height="315" 
+                                src="https://www.youtube.com/embed/TRcDSC0N23g" 
+                                title="YouTube video player" 
+                                frameborder="0" 
+                                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen
+                            ></iframe>
+                            <p class="product_description">
+                                <strong>
+                                    The Paradox Diamond has been stolen from the New York City Museum. Private Investigator Larry Maxwell is on the case but he needs your help. Can you catch the thief red-handed?
+                                </strong>
+                            <br /><br />
+                                Beautiful illustrations and a wide variety of puzzles, including offline and online elements. The game is split into 5 parts, and your progress is saved between parts, so you don't have to play it all at once, unless you want to of course!
+                            <br /><br />
+                                What You Need: <br />
+                                - a computer <br />
+                                - a colour printer <br />
+                                - scissors <br />
+                                - a pencil
+                            <br /><br />
+                                Play as a team or take on the case as a lone detective. The choice is yours.
+                            </p>
+                            <h4 class='product_price'>Hours of fun for just £19.99</h4>
+                            <div
+                                class="pp-product-widget-container"
+                                data-product="1"
+                                data-show="button"
+                                data-button-label="Buy It Now!"
+                                data-button-classes="product_btn"
+                            ></div>
+                        </div> <!-- product -->
+                        
+                        <div class="product">
+                            <h3 class="product_title">The Kidnapped Professor</h3>
+                            <p class="product_gameType">
+                                This is a <span class="gameType_highlight">'print and play'</span> game
+                            </p>
+                            <div class="product_imgContainer">
+                            <img 
+                                class="product_img" 
+                                src="images/cloakroom.jpg" 
+                                alt="sketch drawings of cloakroom items such as bags and coats"
+                            >
+                            <img 
+                                class="product_img" 
+                                src="images/maxwell-mysteries1.jpeg" 
+                                alt="puzzle papers in front of a laptop with the maxwell mysteries website showing"
+                            >
+                            </div>
+                            <p class="product-description"><strong>This game is currently in development.</strong></p>
+                        </div> <!-- product -->
+                    </div> <!-- products container -->
+                </div> <!-- content -->
+            </section>
+
+            <section class='gallery content'>
+                <div class='backgroundCircle backgroundCircle-topRight'></div>
+                <div class='backgroundCircle backgroundCircle-bottomLeft'></div>
+                <h3 class='gallery_title gallery_title-art'>Digital Art <i class="fas fa-paint-brush"></i></h3>
+                <p class='gallery_description'>
+                    I am a super talented artist who is increasing their digital art skills. I am especially good at drawing poop!
+                </p>
+                <div class='gallery_imagesContainer'></div>
+            </section>  
+
+            <div class='popUpContainer'>
+                <div class='popUpOverlay'></div>
+                <div class='popUp'>
+                    <button class='popUp_close' aria-label='close pop up' tabindex='1'>
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <img class='popUp_img' src='' alt=''>
+                    <p class='popUp_text'></p>
+                    <p class='popUp_copyright'>Copyright: <span class='copyright_name'>Isobelle Ford</span></p>
+                </div>
             </div>
         </main>
 
@@ -91,8 +187,23 @@
             </a>
         </footer>
 
+        <script type="text/javascript">
+            (
+                function(d, s, id) {
+                    var js, wjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) {
+                        return;
+                    }
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.setAttribute('key', "UIy1qbIEj1EGooys0KxpAgfryOxOnvPjSs6Ol6Kr");
+                    js.src = "https://boxfile.io/js/widget.js";
+                    wjs.parentNode.insertBefore(js, wjs);
+                }(document, "script", "pp-product-widget-script")
+            );
+        </script>
         <script src="script/nav.js" type="application/javascript"></script>
-        <script src="script/socialsContainer.js" type="application/javascript"></script>
+        <script src="script/artGallery.js" type="application/javascript"></script>
         <script src="script/contactForm.js" type="application/javascript"></script>
     </body>
 </html>

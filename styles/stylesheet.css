@@ -692,7 +692,7 @@ footer {
 .gallery_imagesContainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 200px);
+    grid-auto-rows: 200px;
     overflow: hidden;
     background: black;
     border-radius: 20px;
@@ -753,6 +753,11 @@ footer {
     border-radius: 20px;
     border: 1px solid gray;
     text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .popUp_close {
@@ -789,15 +794,15 @@ footer {
 }
 
 .popUp_text {
-    color: white;
+    color: black;
     font-size: 1rem;
     margin: .5em 0 .25em 0;
 }
 
 .popUp_copyright {
-    color: lightgray;
+    color: gray;
     font-style: italic;
-    font-size: .75em;
+    font-size: 1em;
 }
 
 @media (min-width: 750px) {
@@ -833,17 +838,28 @@ footer {
 }
 
 .maxwellMysteries_title,
-.maxwellMysteries_body,
-.product_title {
+.product_title,
+.gallery_title-art {
     margin: 0;
 }
 
+.maxwellMysteries_body {
+    margin: .25em 0 0 0;
+}
+
+.maxwellMysteries_products {
+    display: grid;
+}
+
 .product {
+    position: relative;
     border: 1px solid gray;
     border-radius: 20px;
     background: var(--light-color);
     padding: 1em;
     margin: 1em 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .product_gameType {
@@ -854,6 +870,10 @@ footer {
     font-weight: bold;
 	background: var(--main-color);
     padding: .25em .5em;
+}
+
+.product .videoPlayer {
+    border: 3px solid gray;
 }
 
 .product_price {
@@ -885,6 +905,17 @@ footer {
     border-radius: 20px;
     border: 1px solid gray;
     display: block;
+}
+
+.gallery_description {
+    margin: .25em 0 1em 0;
+}
+
+@media (min-width:800px) {
+    .maxwellMysteries_products {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+    }
 }
 
 /* CONTACT PAGE */
