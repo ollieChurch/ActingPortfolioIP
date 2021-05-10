@@ -83,7 +83,7 @@ nav {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     background: var(--dark-color);
-    color: white;
+    color: black;
     display: grid;
 
     transform: translateX(100%);
@@ -589,7 +589,8 @@ footer {
 }
 
 .film_title,
-.gallery_title {
+.gallery_title,
+.maxwellMysteries_title {
     font-size: 2rem;
     margin: 0 0 .5em 0;
 }
@@ -685,6 +686,7 @@ footer {
 
 .gallery {
     padding: 1em;
+    width: 100%;
 }
 
 .gallery_imagesContainer {
@@ -737,8 +739,6 @@ footer {
     opacity: .75;
     z-index: -1;
 }
-
-
 
 .popUp {
     background: var(--dark-color);
@@ -806,8 +806,6 @@ footer {
         grid-gap: 20px;
     }
 
-    
-
     .film_library {
         margin-top: 0;
     }
@@ -823,6 +821,70 @@ footer {
     .popUp_img {
         max-height: 75vh;
     }
+}
+
+/* CREATIVE PROJECTS PAGE */
+
+.maxwellMysteries {
+    background: var(--main-color);
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 1em;
+}
+
+.maxwellMysteries_title,
+.maxwellMysteries_body,
+.product_title {
+    margin: 0;
+}
+
+.product {
+    border: 1px solid gray;
+    border-radius: 20px;
+    background: var(--light-color);
+    padding: 1em;
+    margin: 1em 0;
+}
+
+.product_gameType {
+    margin: .5em 0 1em 0;
+}
+
+.gameType_highlight {
+    font-weight: bold;
+	background: var(--main-color);
+    padding: .25em .5em;
+}
+
+.product_price {
+    font-size: 1.25rem;
+}
+
+.product_btn {
+    font-size: 1.25rem;
+    font-weight: bold;
+    background: var(--main-color);
+    border: 3px solid gray;
+    border-radius: 20px;
+    padding: .5em 1.5em;
+    cursor: pointer;
+}
+
+.product_btn:focus,
+.product_btn:hover {
+    background: black;
+    color: var(--main-color);
+}
+
+.product_imgContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.product_img {
+    width: 45%;
+    border-radius: 20px;
+    border: 1px solid gray;
+    display: block;
 }
 
 /* CONTACT PAGE */

@@ -52,6 +52,16 @@ collections:
               - {label: "Image", name: "src", widget: "image"}
               - {label: "Image Description", name: "desc", widget: "string"}
               - {label: "Image Copyright", name: "copy", widget: "string"}   
+      - label: "Creative Projects Page"
+        name: "media"
+        file: "content/creativeProjects.json"
+        fields:
+          - label: "Art Gallery"
+            name: "artGallery"
+            widget: "list"
+            fields:
+              - {label: "Image", name: "src", widget: "image"}
+              - {label: "Image Description", name: "desc", widget: "string"}
       - label: "Contact Page"
         name: "contact"
         file: "content/contact.json"
