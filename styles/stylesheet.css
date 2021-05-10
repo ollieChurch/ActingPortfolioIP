@@ -828,6 +828,13 @@ footer {
     }
 }
 
+@media(min-width:1215px) {
+    .pageIntro,
+    .gallery {
+        padding: 1em 0;
+    }
+}
+
 /* CREATIVE PROJECTS PAGE */
 
 .maxwellMysteries {
@@ -855,7 +862,7 @@ footer {
     position: relative;
     border: 1px solid gray;
     border-radius: 20px;
-    background: var(--light-color);
+    background: var(--medium-color);
     padding: 1em;
     margin: 1em 0;
     display: flex;
@@ -870,6 +877,7 @@ footer {
     font-weight: bold;
 	background: var(--main-color);
     padding: .25em .5em;
+    border-radius: 20px;
 }
 
 .product .videoPlayer {
