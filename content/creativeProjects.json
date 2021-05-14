@@ -32,13 +32,14 @@
       "useVideoTrailer": true
     },
     {
-      "gameStory": "This game is currently in development.",
+      "gameStory": "",
+      "gameInDevelopment": true,
       "src": "images/uploads/cloakroom.jpg",
       "gameTitle": "The Kidnapped Professor",
-      "price": "-",
-      "videoSrc": "isobellePippin.netlify.app",
-      "gameDescription": "-",
-      "productID": 1,
+      "price": "",
+      "videoSrc": "",
+      "gameDescription": "",
+      "productID": "",
       "gameCategory": "print and play",
       "useVideoTrailer": false
     }
