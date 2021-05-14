@@ -60,8 +60,8 @@ collections:
             name: "maxwellMysteries"
             widget: "list"
             fields:
-              - {label: "Product ID Number", name: "productID", widget: "number", value_type: "int"}
-              - {label: "Game In Development?", name: "gameInDevelopment", widget: "boolean", default: false}
+              - {label: "Product ID Number from boxfile.io", name: "productID", widget: "number", value_type: "int", required: false}
+              - {label: "Game In Development?", name: "gameInDevelopment", widget: "boolean", default: false, required: false}
               - {label: "Game Title", name: 'gameTitle', widget: "string"}
               - {label: "Game Category", name: 'gameCategory', widget: "string", default: "print and play"}
               - {label: "Image", name: "src", widget: "image", default: "images/uploads/cloakroom.jpg", required: false}

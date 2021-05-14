@@ -55,12 +55,14 @@ fetch('../content/creativeProjects.json')
                 price.classList.add('product_price')
                 price.textContent = `Hours of fun for just £${product.price}`
 
-                const buyBtn = document.createElement('div')
-                buyBtn.classList.add('pp-product-widget-container')
-                buyBtn.setAttribute('data-product', product.productID)
-                buyBtn.setAttribute('data-show', 'button')
-                buyBtn.setAttribute('data-button-label', 'Buy It Now!')
-                buyBtn.setAttribute('data-button-classes', 'product_btn')
+                if (product.productID) {
+                    const buyBtn = document.createElement('div')
+                    buyBtn.classList.add('pp-product-widget-container')
+                    buyBtn.setAttribute('data-product', product.productID)
+                    buyBtn.setAttribute('data-show', 'button')
+                    buyBtn.setAttribute('data-button-label', 'Buy It Now!')
+                    buyBtn.setAttribute('data-button-classes', 'product_btn')
+                }
             } else {
                 const developmentText = document.createElement('p')
                 developmentText.classList.add('product_story')
@@ -87,7 +89,7 @@ fetch('../content/creativeProjects.json')
             } else {
                 newContainer.append(developmentText)
             }
-            
+
             productsContainer.append(newContainer)
         })
     })
