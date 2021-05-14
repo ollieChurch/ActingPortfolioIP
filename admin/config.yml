@@ -56,6 +56,14 @@ collections:
         name: "creativeProjects"
         file: "content/creativeProjects.json"
         fields:
+          - label: "Maxwell Mysteries"
+            name: "maxwellMysteries"
+            widget: "list"
+            fields:
+              - {label: "Image", name: "src", widget: "image"}
+              - {label: "Video URL", name: 'videoSrc', widget: "string"}
+              - {label: "Use Video Trailer?", name: "useVideoTrailer", widget: "boolean", default: true}
+              - {label: "Product Text", name: "productText", widget: "text"}
           - label: "Art Gallery"
             name: "artGallery"
             widget: "list"
