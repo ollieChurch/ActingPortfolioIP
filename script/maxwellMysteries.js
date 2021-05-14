@@ -18,7 +18,7 @@ fetch('../content/creativeProjects.json')
 
             const media = product.useVideoTrailer ? document.createElement('iframe') : document.createElement('img')
             const mediaSrc = product.useVideoTrailer ? product.videoSrc : product.src
-            media.classList.add('videoPlayer')
+            product.useVideoTrailer && media.classList.add('videoPlayer')
             media.setAttribute('width', '100%')
             media.setAttribute('height', '315')
             media.setAttribute('src', mediaSrc)

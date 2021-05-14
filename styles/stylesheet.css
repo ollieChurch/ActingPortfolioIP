@@ -878,8 +878,13 @@ footer {
     border-radius: 20px;
 }
 
-.product .videoPlayer {
+.product .videoPlayer,
+.product img {
     border: 3px solid gray;
+}
+
+.product img {
+    border-radius: 20px;
 }
 
 .product_story {
