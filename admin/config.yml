@@ -17,6 +17,13 @@ collections:
             widget: "list"
             fields:
               - {label: "Image", name: "image", widget: "image"}
+      - label: "Social Links"
+        name: "socialLinks"
+        file: "content/socialLinks.json"
+        fields:
+          - {label: "Twitter URL", name: "twitter", widget: "string"}
+          - {label: "Instagram URL", name: "instagram", widget: "string"}
+          - {label: "Spotlight URL", name: "spotlight", widget: "string"}
       - label: "Home Page"
         name: "home"
         file: "content/home.json"
