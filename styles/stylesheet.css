@@ -869,11 +869,9 @@ footer {
     flex-direction: column;
 }
 
-.product_gameType {
+.product_gameTypeBadge {
     margin: .5em 0 1em 0;
-}
-
-.gameType_highlight {
+    width: fit-content;
     font-weight: bold;
 	background: var(--main-color);
     padding: .25em .5em;
@@ -884,8 +882,18 @@ footer {
     border: 3px solid gray;
 }
 
+.product_story {
+    font-weight: bold;
+}
+
+.product_requirements_heading,
+.product_requirements_list {
+    margin: 0;
+}
+
 .product_price {
     font-size: 1.25rem;
+    margin-top: 0;
 }
 
 .product_btn {
