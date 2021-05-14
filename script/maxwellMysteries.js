@@ -28,51 +28,66 @@ fetch('../content/creativeProjects.json')
                 media.setAttribute('allowfullscreen', true)
             } 
 
-            const story = document.createElement('p')
-            story.classList.add('product_story')
-            story.textContent = product.gameStory
+            if (!product.gameInDevelopment) {
+                const story = document.createElement('p')
+                story.classList.add('product_story')
+                story.textContent = product.gameStory
 
-            const description = document.createElement('p')
-            description.classList.add('product_description')
-            description.textContent = product.gameDescription
-
-            const requirementsHeading = document.createElement('p')
-            requirementsHeading.classList.add('product_requirements_heading')
-            requirementsHeading.textContent = 'What You Need:'
-            const requirementsList = document.createElement('ul')
-            requirementsList.classList.add('product_requirements_list')
-            product.requirementsList.forEach(item => {
-                const newListItem = document.createElement('li')
-                newListItem.textContent = item.requirement
-                requirementsList.append(newListItem)
-            })
+                const description = document.createElement('p')
+                description.classList.add('product_description')
+                description.textContent = product.gameDescription
             
-            const finalLine = document.createElement('p')
-            finalLine.textContent = 'Play as a team or take on the case as a lone detective. The choice is yours.'
+                const requirementsHeading = document.createElement('p')
+                requirementsHeading.classList.add('product_requirements_heading')
+                requirementsHeading.textContent = 'What You Need:'
+                const requirementsList = document.createElement('ul')
+                requirementsList.classList.add('product_requirements_list')
+                product.requirementsList.forEach(item => {
+                    const newListItem = document.createElement('li')
+                    newListItem.textContent = item.requirement
+                    requirementsList.append(newListItem)
+                })
+                
+                const finalLine = document.createElement('p')
+                finalLine.textContent = 'Play as a team or take on the case as a lone detective. The choice is yours.'
 
-            const price = document.createElement('h4')
-            price.classList.add('product_price')
-            price.textContent = `Hours of fun for just £${product.price}`
+                const price = document.createElement('h4')
+                price.classList.add('product_price')
+                price.textContent = `Hours of fun for just £${product.price}`
 
-            const buyBtn = document.createElement('div')
-            buyBtn.classList.add('pp-product-widget-container')
-            buyBtn.setAttribute('data-product', product.productID)
-            buyBtn.setAttribute('data-show', 'button')
-            buyBtn.setAttribute('data-button-label', 'Buy It Now!')
-            buyBtn.setAttribute('data-button-classes', 'product_btn')
+                const buyBtn = document.createElement('div')
+                buyBtn.classList.add('pp-product-widget-container')
+                buyBtn.setAttribute('data-product', product.productID)
+                buyBtn.setAttribute('data-show', 'button')
+                buyBtn.setAttribute('data-button-label', 'Buy It Now!')
+                buyBtn.setAttribute('data-button-classes', 'product_btn')
+            } else {
+                const developmentText = document.createElement('p')
+                developmentText.classList.add('product_story')
+                developmentText.textContent = 'This game is currently in development'
+            }
+            
 
             newContainer.append(
                 title, 
                 categoryBadge, 
-                media, 
-                story, 
-                description, 
-                requirementsHeading, 
-                requirementsList,
-                finalLine,
-                price,
-                buyBtn
+                media
             )
+
+            if (!product.gameInDevelopment) {
+                newContainer.append(
+                    story, 
+                    description, 
+                    requirementsHeading, 
+                    requirementsList,
+                    finalLine,
+                    price,
+                    buyBtn
+                )
+            } else {
+                newContainer.append(developmentText)
+            }
+            
             productsContainer.append(newContainer)
         })
     })

@@ -61,14 +61,15 @@ collections:
             widget: "list"
             fields:
               - {label: "Product ID Number", name: "productID", widget: "number", value_type: "int"}
+              - {label: "Game In Development?", name: "gameInDevelopment", widget: "boolean", default: false}
               - {label: "Game Title", name: 'gameTitle', widget: "string"}
               - {label: "Game Category", name: 'gameCategory', widget: "string", default: "print and play"}
-              - {label: "Image", name: "src", widget: "image", default: "images/uploads/cloakroom.jpg"}
-              - {label: "Video URL", name: 'videoSrc', widget: "string"}
+              - {label: "Image", name: "src", widget: "image", default: "images/uploads/cloakroom.jpg" required: false}
+              - {label: "Video URL", name: 'videoSrc', widget: "string" required: false}
               - {label: "Use Video Trailer?", name: "useVideoTrailer", widget: "boolean", default: true}
-              - {label: "Game Story", name: "gameStory", widget: "text"}
-              - {label: "Game Description", name: "gameDescription", widget: "text"}
-              - {label: "Price", name: 'price', widget: "string"}
+              - {label: "Game Story", name: "gameStory", widget: "text" required: false}
+              - {label: "Game Description", name: "gameDescription", widget: "text" required: false}
+              - {label: "Price", name: 'price', widget: "string" required: false}
               - label: "What They Need"
                 name: "requirementsList" 
                 widget: "list"
