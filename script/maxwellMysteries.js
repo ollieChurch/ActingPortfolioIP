@@ -90,18 +90,4 @@ fetch('../content/creativeProjects.json')
 
             productsContainer.append(newContainer)
         })
-
-        function boxFileLink(d, s, id) {
-            var js, wjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) {
-                return;
-            }
-            js = d.createElement(s);
-            js.id = id;
-            js.setAttribute('key', "UIy1qbIEj1EGooys0KxpAgfryOxOnvPjSs6Ol6Kr");
-            js.src = "https://boxfile.io/js/widget.js";
-            wjs.parentNode.insertBefore(js, wjs);
-        }(document, "script", "pp-product-widget-script")
-
-        boxFileLink()
     })
