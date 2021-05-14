@@ -65,11 +65,11 @@ collections:
               - {label: "Use Video Trailer?", name: "useVideoTrailer", widget: "boolean", default: true}
               - {label: "Product Text", name: "productText", widget: "text"}
               - {label: "Price", name: 'price', widget: "string"}
-              - {label: "What They Need",
-                name: "requirementsList", 
-                widget: "list",
+              - label: "What They Need"
+                name: "requirementsList" 
+                widget: "list"
                 fields: 
-                  - {label: "Requirement", name: 'requirement', widget: "string"}}
+                  - {label: "Requirement", name: 'requirement', widget: "string"}
           - label: "Art Gallery"
             name: "artGallery"
             widget: "list"
