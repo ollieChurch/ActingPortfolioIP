@@ -60,6 +60,7 @@ collections:
             name: "maxwellMysteries"
             widget: "list"
             fields:
+              - {label: "Product ID Number", name: "productID", widget: "number", value_type: "int"}
               - {label: "Image", name: "src", widget: "image"}
               - {label: "Video URL", name: 'videoSrc', widget: "string"}
               - {label: "Use Video Trailer?", name: "useVideoTrailer", widget: "boolean", default: true}
