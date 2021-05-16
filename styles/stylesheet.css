@@ -909,6 +909,7 @@ footer {
     border-radius: 20px;
     padding: .5em 1.5em;
     cursor: pointer;
+    width: fit-content;
 }
 
 .product_btn:focus,

@@ -68,6 +68,12 @@ fetch('../content/creativeProjects.json')
             buyBtn.setAttribute('data-button-label', 'Buy It Now!')
             buyBtn.setAttribute('data-button-classes', 'product_btn')
 
+            // buyBtn.classList.add('product_btn')
+            // buyBtn.textContent = 'Buy It Now!'
+            // buyBtn.addEventListener("click", () => {
+            //     window.open("https://boxfile.io/shop/paradox-parlours"), {passive: true}
+            // })
+
             newContainer.append(
                 title, 
                 categoryBadge, 
