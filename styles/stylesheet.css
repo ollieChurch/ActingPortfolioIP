@@ -12,7 +12,7 @@
 body {
     min-height: 100vh;
     font-size: 16px;
-    width: 100%;
+    /* min-width: 100%; */
     margin: 0;
     background: white;
     font-family: 'Ubuntu', sans-serif;
@@ -35,7 +35,7 @@ main {
     display: grid;
     align-items: center;
     height: 100%;
-    width: 100%;
+    /* width: 100%; */
     overflow: hidden;
 }
 
