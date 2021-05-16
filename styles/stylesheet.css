@@ -117,7 +117,7 @@ nav {
 .nav_link:focus,
 .nav_close:hover,
 .nav_close:focus {
-    color: rgb(84, 187, 221);
+    color: white;
     cursor: pointer;
     outline: none;
 }
