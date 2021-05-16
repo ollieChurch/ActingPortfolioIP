@@ -62,17 +62,17 @@ fetch('../content/creativeProjects.json')
             price.textContent = `Hours of fun for just £${product.price}`
 
             const buyBtn = document.createElement('div')
-            buyBtn.classList.add('pp-product-widget-container')
-            buyBtn.setAttribute('data-product', product.productID)
-            buyBtn.setAttribute('data-show', 'button')
-            buyBtn.setAttribute('data-button-label', 'Buy It Now!')
-            buyBtn.setAttribute('data-button-classes', 'product_btn')
+            // buyBtn.classList.add('pp-product-widget-container')
+            // buyBtn.setAttribute('data-product', product.productID)
+            // buyBtn.setAttribute('data-show', 'button')
+            // buyBtn.setAttribute('data-button-label', 'Buy It Now!')
+            // buyBtn.setAttribute('data-button-classes', 'product_btn')
 
-            // buyBtn.classList.add('product_btn')
-            // buyBtn.textContent = 'Buy It Now!'
-            // buyBtn.addEventListener("click", () => {
-            //     window.open("https://boxfile.io/shop/paradox-parlours"), {passive: true}
-            // })
+            buyBtn.classList.add('product_btn')
+            buyBtn.textContent = 'Buy It Now!'
+            buyBtn.addEventListener("click", () => {
+                window.open("https://boxfile.io/shop/paradox-parlours"), {passive: true}
+            })
 
             newContainer.append(
                 title, 
