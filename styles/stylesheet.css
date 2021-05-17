@@ -729,7 +729,7 @@ footer {
     text-overflow: ellipsis;
 }
 
-.gallery {
+.gallery .content {
     padding: 1em;
     width: 100%;
 }
