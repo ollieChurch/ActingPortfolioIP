@@ -49,15 +49,15 @@ collections:
             name: "videoLibrary"
             widget: "list"
             fields:
-              - {label: "Video Thumbnail", name: "thumbnail", widget: "image"}
               - {label: "Video Title", name: "title", widget: "string"}
+              - {label: "Video Thumbnail", name: "thumbnail", widget: "image"}
               - {label: "Video Src", name: "src", widget: "string"}
           - label: "Image Gallery"
             name: "imageGallery"
             widget: "list"
             fields:
-              - {label: "Image", name: "src", widget: "image"}
               - {label: "Image Description", name: "desc", widget: "string"}
+              - {label: "Image", name: "src", widget: "image"}
               - {label: "Image Copyright", name: "copy", widget: "string"}   
       - label: "Creative Projects Page"
         name: "creativeProjects"
@@ -86,8 +86,8 @@ collections:
             name: "artGallery"
             widget: "list"
             fields:
-              - {label: "Image", name: "src", widget: "image"}
               - {label: "Image Description", name: "desc", widget: "string"}
+              - {label: "Image", name: "src", widget: "image"}
       - label: "Contact Page"
         name: "contact"
         file: "content/contact.json"
