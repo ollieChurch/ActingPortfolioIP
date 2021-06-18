@@ -3,28 +3,20 @@
   "currentlyAppearing": "Isobelle has exceptional experience in stage and screen combat and is highly physical. When not acting Isobelle is currently administering COVID Vaccines, illustrating a play at home escape room game and preparing to run her first ultra-marathon.",
   "recentJobs": [
     {
-      "name": "Poop About Town",
-      "year": "2021",
-      "type": "Theatre",
-      "role": "Poop",
-      "company": "PissBums",
-      "director": "The Captain"
-    },
-    {
-      "name": "Poop About Town 2",
+      "name": "The Ride Home",
       "year": "2021",
       "type": "Film",
-      "role": "Pooper McPooperson",
-      "company": "PissBums",
-      "director": "The Captain"
+      "role": "Ellie (Lead)",
+      "director": "Charlie Hedger & Angie Piera",
+      "company": "Independent Film"
     },
     {
-      "name": "Poops Gone Wild",
+      "name": "'Hope' - Sky Bet",
       "year": "2021",
-      "type": "Experimental Dance",
-      "role": "The Grand Poop",
-      "company": "Pissbums",
-      "director": "The Captain"
+      "type": "Commercial",
+      "role": "Norwich City Football Fan",
+      "company": "Outsider",
+      "director": "Jim Gilchrist"
     }
   ]
 }
