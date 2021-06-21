@@ -1,7 +1,7 @@
 :root {
     --main-color: #F8EA8C;
     --medium-color: #A4E8E0;
-    --dark-color: #4CD7D0;
+    --dark-color: #399e99;
     --light-color: rgba(76, 215, 208, .5);
   }
 
@@ -27,7 +27,7 @@ header {
     justify-content: space-between;
     padding: .5em 1.2em;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     border-bottom: 1px solid gray;
     background: rgba(255, 255, 255, .5)
 }
@@ -42,6 +42,12 @@ main {
 
 section {
     position: relative;
+}
+
+.section-colorBackground {
+    background: var(--main-color);
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
 }
 
 .content {
@@ -108,6 +114,7 @@ nav {
     border-bottom: 1px dashed white;
     align-self: center;
     padding: 1em 0;
+    font-size: 2rem;
 }
 
 .nav_link-active {
@@ -132,8 +139,6 @@ nav {
 }
 
 footer {
-    background: var(--main-color);
-    border-top: 1px solid gray;
     display: grid;
 }
 
@@ -175,7 +180,6 @@ footer {
 }
 
 .contactForm_btn {
-    width: 25%;
     padding: 0.5em 1.2em;
     cursor: pointer;
     background: black;
@@ -301,6 +305,7 @@ footer {
         margin: 0 1em;
         padding: 0;
         padding-bottom: .25em;
+        font-size: 1rem;
     }
 
     .nav_link:hover,
@@ -341,6 +346,7 @@ footer {
 
 .intro_img {
     max-width: 100%;
+    height: 518px;
     max-height: 100%;
     margin: 0 auto 1em auto;
     border-radius: 5px;
@@ -349,6 +355,8 @@ footer {
     box-shadow: 0px 2px 10px gray;
     transition: opacity 1.25s;
     grid-area: head;
+    object-fit: cover;
+    object-position: center;
 }
 
 .socialsContainer {
@@ -383,7 +391,8 @@ footer {
     height: 3.75rem;
 }
 
-.socials_btn:hover {
+.socials_btn:hover,
+.socials_btn:focus {
     border-bottom: 3px solid var(--main-color);
 }
 
@@ -437,20 +446,42 @@ footer {
 }
 
 .moreInfo {
-    background: var(--main-color);
     padding: 1em;
-    color: black;
     text-align: center;
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
 }
 
 .moreInfo .content {
     display: grid;
 }
 
+.moreInfo_about {
+    align-self: center;
+    margin-bottom: 1.5em;
+}
+
 .about_title {
     margin-top: 0;
+}
+
+.about_body {
+    font-size: 1.25rem;
+    margin-bottom: .75em;
+}
+
+.about_link {
+    background: var(--dark-color);
+    padding: .5em 1em;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.about_link:hover,
+.about_link:focus {
+    background: var(--light-color);
+    color: black;
+    cursor: pointer;
 }
 
 #projects {
@@ -468,7 +499,7 @@ footer {
 .projects_breakdown {
     display: grid;
     background: var(--medium-color);
-    padding: 1em .5em 1em .5em;
+    padding: 1em .5em;
     border-radius: 20px;
     border: 1px solid gray;
     margin: 0 auto 1em auto;
@@ -604,7 +635,7 @@ footer {
 
     .about_body {
         max-width: 80%;
-        margin: 0 auto;
+        margin: 0 auto 2em auto;
     }
 
     .job_info {
@@ -634,17 +665,18 @@ footer {
 }
 
 .film_title,
-.gallery_title,
 .maxwellMysteries_title {
     font-size: 2rem;
     margin: 0 0 .5em 0;
 }
 
+.gallery_title {
+    font-size: 2rem;
+    margin: 0 1rem .5em 1rem;
+}
+
 .film {
-    background: var(--main-color);
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
-    padding: 1em;
+    padding: 1em 1em 2em 1em;
     transition: all 1s;
 }
 
@@ -652,16 +684,17 @@ footer {
     display: grid;
     grid-template-columns: 100%;
     justify-content: left;
-    padding: 0 1em;
+    padding: 0;
 }
 
 .film_grid .videoPlayer {
-    margin: unset;
+    margin: 0 auto;
 }
 
 .film_library {
-    margin-top: 1em;
+    margin: 1em auto 0 auto;
     max-width: 600px;
+    width: 100%;
 }
 
 .film_library_header {
@@ -696,6 +729,8 @@ footer {
 .film_library_bodyContainer {
     background:rgba(255, 255, 255, .5);
     border: 1px solid gray;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     overflow-y: scroll;
 
     height: 0;
@@ -708,7 +743,7 @@ footer {
     align-items: center;
     grid-gap: 1em 0;
     text-align: center;
-    margin: 1em 0 1em 0;
+    margin: 1em 0;
 }
 
 .film_library_item_img {
@@ -721,6 +756,10 @@ footer {
     cursor: pointer;
 }
 
+.film_library_item_img:hover {
+    opacity: .5;
+}
+
 .film_library_item_title {
     margin: 0;
     cursor: pointer;
@@ -730,7 +769,7 @@ footer {
 }
 
 .gallery .content {
-    padding: 1em;
+    padding: 1em 0;
     width: 100%;
 }
 
@@ -742,6 +781,7 @@ footer {
     background: black;
     border-radius: 20px;
     border: 1px solid gray;
+    margin: 0 1em;
 }
 
 .gallery_img {
@@ -854,6 +894,7 @@ footer {
     .film_grid {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 20px;
+        padding: 0;
     }
 
     .film_library {
@@ -873,19 +914,27 @@ footer {
     }
 }
 
-@media(min-width:1215px) {
-    .pageIntro,
-    .gallery {
+@media(min-width:1300px) {
+    .pageIntro {
         padding: 1em 0;
+    }
+
+    .gallery_title {
+        margin: 0 0 .5em 0;
+    }
+
+    .gallery {
+        margin: 0;
+    }
+
+    .gallery_imagesContainer {
+        margin: 0;
     }
 }
 
 /* CREATIVE PROJECTS PAGE */
 
 .maxwellMysteries {
-    background: var(--main-color);
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
     padding: 1em;
 }
 
@@ -896,7 +945,7 @@ footer {
 }
 
 .maxwellMysteries_body {
-    margin: .25em 0 0 0;
+    margin-top: .25em;
 }
 
 .maxwellMysteries_products {
@@ -977,13 +1026,19 @@ footer {
 }
 
 .gallery_description {
-    margin: .25em 0 1em 0;
+    margin: .25em 1rem 1em 1rem;
 }
 
 @media (min-width:800px) {
     .maxwellMysteries_products {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 40px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .gallery_description {
+        margin: .25em 0 1em 0;
     }
 }
 
@@ -1010,11 +1065,7 @@ footer {
 }
 
 .contact_email {
-    background: var(--main-color);
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
     grid-area: cForm;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1088,21 +1139,4 @@ footer {
     .footerContainer-contact {
         display: none;
     }
-}
-
-/*  CONSTRUCTION COMPONENT  */
-
-.constructionContainer {
-    margin: 1em 1em 2em 1em;
-    text-align: center;
-}
-
-.construction_img {
-    max-width: 100%;
-    object-fit: contain;
-    object-position: center;
-}
-
-.construction_title {
-    margin-bottom: .5em;
 }
