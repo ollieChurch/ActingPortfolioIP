@@ -972,15 +972,12 @@ footer {
     border-radius: 20px;
 }
 
-.product .videoPlayer,
-.product img {
+.product .media {
     border: 3px solid gray;
     object-fit: cover;
     object-position: center;
-}
-
-.product img {
     border-radius: 20px;
+
 }
 
 .product_story {
