@@ -3,7 +3,6 @@ const productsContainer = document.querySelector('.maxwellMysteries_products')
 fetch('../content/creativeProjects.json')
     .then(response => response.json())
     .then(data => {
-        console.log(data.maxwellMysteries)
         data.maxwellMysteries.forEach(product => {
             const newContainer = document.createElement('div')
             newContainer.classList.add('product')
