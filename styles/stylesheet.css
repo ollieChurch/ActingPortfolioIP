@@ -766,6 +766,7 @@ footer {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    padding: 0 .25em;
 }
 
 .gallery .content {
@@ -885,7 +886,7 @@ footer {
 }
 
 .popUp_copyright {
-    color: gray;
+    color: var(--main-color);
     font-style: italic;
     font-size: 1em;
 }
@@ -944,6 +945,10 @@ footer {
     margin: 0;
 }
 
+.gallery_title-art {
+    margin-left: .5em;
+}
+
 .maxwellMysteries_body {
     margin-top: .25em;
 }
@@ -977,7 +982,6 @@ footer {
     object-fit: cover;
     object-position: center;
     border-radius: 20px;
-
 }
 
 .product_story {
@@ -1036,6 +1040,10 @@ footer {
 @media (min-width: 1300px) {
     .gallery_description {
         margin: .25em 0 1em 0;
+    }
+
+    .gallery_title-art {
+        margin-left: 0;
     }
 }
 
