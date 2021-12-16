@@ -2,26 +2,26 @@
   "videoLibrary": [
     {
       "title": "Scene from 'From The Bottom Of My Heart'",
-      "src": "https://youtu.be/v9divp0qxR0",
+      "src": "https://youtube.com/embed/v9divp0qxR0",
       "thumbnail": "/images/uploads/still-ellie.png-smaller.png"
     },
     {
-      "src": "https://youtu.be/nmNzaf9G-r8",
+      "src": "https://youtube.com/embed/nmNzaf9G-r8",
       "title": "Example Self Tape (from Do Or Die Self Tape Competition)",
       "thumbnail": "/images/uploads/grayHeadshot.jpeg"
     },
     {
       "title": "Comedy Scene from 'Love And Other Such Trouble'",
-      "src": "https://www.youtube.com/watch?v=dvxje-iaaPQ",
+      "src": "https://www.youtube.com/embed/dvxje-iaaPQ",
       "thumbnail": "/images/uploads/yellowheadshot.jpeg"
     },
     {
       "title": "Finalist in Mandy Monologue Competition",
-      "src": "https://youtu.be/xo_Pii3ZWdk",
+      "src": "https://youtube.com/embed/xo_Pii3ZWdk",
       "thumbnail": "/images/uploads/greenHeadshot.jpeg"
     }
   ],
-  "showreel": "https://youtu.be/v9divp0qxR0",
+  "showreel": "https://youtube.com/embed/v9divp0qxR0",
   "imageGallery": [
     {
       "src": "/images/uploads/blackheadshot.jpeg",
