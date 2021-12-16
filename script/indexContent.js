@@ -1,4 +1,5 @@
 const aboutContentContainer = document.querySelector('.about_body')
+const videoPlayer = document.querySelector('.videoPlayer')
 const currentlyAppearingContainer = document.querySelector('.projects_current')
 const recentJobsContainer = document.querySelector('.projects_recentContainer')
 
@@ -48,3 +49,10 @@ function createJobInfo(info, data) {
 
         return category
 }
+
+fetch('../content/media.json')
+    .then(response => response.json())
+    .then(data => {
+        const {showreel} = data
+        videoPlayer.src = showreel
+    })
