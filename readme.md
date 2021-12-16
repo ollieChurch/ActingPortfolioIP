@@ -13,4 +13,4 @@ To make full use of the Netlify eco-system, the various contact forms on the sit
 Finally I presented Isobelle with her site, hosted on Netlify, which she has updated with the relevant content. I continue to maintain the site.
 
 ## The Technology
-This is a static HTML site built from scracth with custom CSS. *NetlifyCMS* stores it's saved content as JSON files in the GitHub repo and I then use Javascript to make internal fetch calls to that data and display it where it is needed throughout the site. Thanks to Netlify's continuous build functionality, everytime the GitHub repo is updated Netlify triggers a new build incorporating any fresh edits Isobelle has made instantly.
+This is a static HTML site built from scratch with custom CSS. *NetlifyCMS* stores it's saved content as JSON files in the GitHub repo and I then use Javascript to make internal fetch calls to that data and display it where it is needed throughout the site. Thanks to Netlify's continuous build functionality, everytime the GitHub repo is updated Netlify triggers a new build incorporating any fresh edits Isobelle has made instantly.
