@@ -18,7 +18,7 @@
       "gameStory": "The Paradox Diamond has been stolen from the New York City Museum. Private Investigator Larry Maxwell is on the case but he needs your help. Can you catch the thief red-handed?",
       "src": "images/uploads/cloakroom.jpg",
       "gameTitle": "The Disappearing Diamond",
-      "price": "19.99",
+      "price": "10",
       "videoSrc": "https://www.youtube.com/embed/TRcDSC0N23g",
       "gameDescription": "Beautiful illustrations and a wide variety of puzzles, including offline and online elements. The game is split into 5 parts, and your progress is saved between parts, so you don't have to play it all at once, unless you want to of course!",
       "productID": 1,
@@ -40,16 +40,27 @@
       "useVideoTrailer": true
     },
     {
-      "gameStory": "",
-      "gameInDevelopment": true,
+      "gameStory": "P.I. Larry Maxwell returns in his latest case! Professor Foxworth has been taken from his office in the heart of New York. Follow the clues, secure the research and find the professor before it is too late. Can you save Professor Foxworth in this 'play at home' game?",
+      "gameInDevelopment": false,
       "src": "images/uploads/cloakroom.jpg",
       "gameTitle": "The Kidnapped Professor",
-      "price": "",
-      "videoSrc": "",
-      "gameDescription": "",
-      "productID": "",
-      "gameCategory": "print and play",
-      "useVideoTrailer": false
+      "price": "10",
+      "videoSrc": "https://www.youtube.com/embed/DV7GCSJpYDA",
+      "gameDescription": "New handcrafted illustrations and featuring the Maxwell Mysteries signature variety of puzzles, including both online and offline elements. 2+ hours of content spread across 5 levels, allowing you to take on the challenge at your own pace.",
+      "productID": 2,
+      "requirementsList": [
+        {
+          "requirement": "a computer"
+        },
+        {
+          "requirement": "scissors"
+        },
+        {
+          "requirement": "a pencil"
+        }
+      ],
+      "gameCategory": "play at home",
+      "useVideoTrailer": true
     }
   ]
 }
