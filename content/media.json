@@ -39,6 +39,26 @@
       "copy": "LBP Productions"
     },
     {
+      "desc": "From The Bottom Of My Heart Promo Image",
+      "src": "/images/uploads/still-ellie.png-smaller.png",
+      "copy": "Ed Palmer"
+    },
+    {
+      "desc": "'From The Bottom Of My Heart' Promo Image",
+      "src": "/images/uploads/still-tony-and-ellie-2-smaller-again.png",
+      "copy": "Ed Palmers"
+    },
+    {
+      "desc": "'From The Bottom Of My Heart' Promo Image",
+      "src": "/images/uploads/still-tony-and-ellie-smaller-again.png",
+      "copy": "Ed Palmer"
+    },
+    {
+      "desc": "'From The Bottom Of My Heart' Promo Image",
+      "src": "/images/uploads/still-ellie-2-smaller-again.png",
+      "copy": "Ed Palmer"
+    },
+    {
       "src": "/images/uploads/trex-puppet.jpg",
       "desc": "Puppeteering in 'The Lost World'",
       "copy": "Colin Ford"
@@ -64,16 +84,6 @@
       "copy": "Colin Ford"
     },
     {
-      "src": "/images/uploads/yellowheadshot.jpeg",
-      "desc": "Isobelle Pippin Headshot in yellow",
-      "copy": "Robin Savage"
-    },
-    {
-      "src": "/images/uploads/blackheadshot.jpeg",
-      "desc": "Isobelle Pippin headshot",
-      "copy": "Robin Savage"
-    },
-    {
       "src": "/images/uploads/249760296_10216318581837749_444922929031158486_n.jpg",
       "desc": "Pole Fitness",
       "copy": "Isobelle Pippin"
@@ -84,9 +94,34 @@
       "copy": "Isobelle Pippin"
     },
     {
-      "desc": "From The Bottom Of My Heart Promo Image",
-      "src": "/images/uploads/still-ellie.png-smaller.png",
-      "copy": "Ed Palmer"
+      "src": "/images/uploads/yellowheadshot.jpeg",
+      "desc": "Isobelle Pippin Headshot",
+      "copy": "Robin Savage"
+    },
+    {
+      "src": "/images/uploads/blackheadshot.jpeg",
+      "desc": "Isobelle Pippin Headshot",
+      "copy": "Robin Savage"
+    },
+    {
+      "src": "/images/uploads/whiteHeadshot.jpeg",
+      "desc": "Isobelle Pippin Headshot",
+      "copy": "Robin Savage"
+    },
+    {
+      "desc": "Isobelle Pippin Headshot",
+      "src": "/images/uploads/sleevelessHeadshot.jpeg",
+      "copy": "Robin Savage"
+    },
+    {
+      "desc": "Isobelle Pippin Headshot",
+      "src": "/images/uploads/grayHeadshot.jpeg",
+      "copy": "Robin Savage"
+    },
+    {
+      "desc": "Isobelle Pippin Headshot",
+      "src": "/images/uploads/greenHeadshot.jpeg",
+      "copy": "Claire Grogan"
     }
   ]
 }
