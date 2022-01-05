@@ -1,12 +1,24 @@
 {
   "artGallery": [
     {
+      "src": "/images/uploads/labsmaller.jpg",
+      "desc": "The Laboratory - a location in 'The Kidnapped Professor' puzzle game"
+    },
+    {
+      "desc": "The Library - a location in 'The Kidnapped Professor' puzzle game",
+      "src": "/images/uploads/librarysmaller.jpg"
+    },
+    {
       "src": "/images/uploads/officeoriginal.jpg",
-      "desc": "The Professor's Office - a location in The Kidnapped Professor puzzle game"
+      "desc": "The Professor's Office - a location in 'The Kidnapped Professor' puzzle game"
+    },
+    {
+      "desc": "The Docks - a location in 'The Kidnapped Professor' puzzle game",
+      "src": "/images/uploads/dockssmaller.jpg"
     },
     {
       "src": "/images/uploads/fourJokers.jpg",
-      "desc": "The Four Jokers - a location in The Kidnapped Professor puzzle game"
+      "desc": "The Four Jokers - a location in 'The Kidnapped Professor' puzzle game"
     },
     {
       "src": "/images/uploads/firstassignment3.jpg",
