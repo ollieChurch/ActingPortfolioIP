@@ -44,6 +44,11 @@
       "copy": "LBP Productions"
     },
     {
+      "src": "/images/uploads/modellingsmaller.jpg",
+      "desc": "Modelling",
+      "copy": "Broadway Studios"
+    },
+    {
       "desc": "'From The Bottom Of My Heart' Promo Image",
       "src": "/images/uploads/still-tony-and-ellie-2-smaller-again.png",
       "copy": "Ed Palmers"
@@ -107,11 +112,6 @@
       "desc": "Modelling",
       "copy": "Broadway Studios",
       "src": "/images/uploads/smallerfile3.jpg"
-    },
-    {
-      "src": "/images/uploads/modellingsmaller.jpg",
-      "desc": "Modelling",
-      "copy": "Broadway Studios"
     },
     {
       "desc": "Modelling",
