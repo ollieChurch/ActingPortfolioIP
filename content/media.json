@@ -24,21 +24,6 @@
   "showreel": "https://www.youtube.com/embed/2TO90PcRRKM",
   "imageGallery": [
     {
-      "src": "/images/uploads/blackheadshot.jpeg",
-      "desc": "Isobelle Pippin headshot",
-      "copy": "Robin Savage"
-    },
-    {
-      "src": "/images/uploads/yellowheadshot.jpeg",
-      "desc": "Isobelle Pippin Headshot in yellow",
-      "copy": "Robin Savage"
-    },
-    {
-      "src": "/images/uploads/trex-puppet.jpg",
-      "desc": "Puppeteering in 'The Lost World'",
-      "copy": "Colin Ford"
-    },
-    {
       "desc": "As Billie Saunders in 'Sin Salida'",
       "src": "/images/uploads/246303492_10216281335426612_3925787675366396662_n.jpg",
       "copy": "Aaron Wright"
@@ -47,6 +32,16 @@
       "desc": "Promo Image from 'Sin Salida'",
       "src": "/images/uploads/245449818_10216281335466613_8237103313415222805_n.jpg",
       "copy": "Aaron Wright"
+    },
+    {
+      "src": "/images/uploads/243049371_10158317513148587_5844764923726771336_n.jpg",
+      "desc": "Promo Image for Sin Salida",
+      "copy": "LBP Productions"
+    },
+    {
+      "src": "/images/uploads/trex-puppet.jpg",
+      "desc": "Puppeteering in 'The Lost World'",
+      "copy": "Colin Ford"
     },
     {
       "desc": "Puppeteering in 'The Lost World'",
@@ -67,6 +62,31 @@
       "src": "/images/uploads/unnamed-10-.jpg",
       "desc": "Puppeteering in 'The Lost World'",
       "copy": "Colin Ford"
+    },
+    {
+      "src": "/images/uploads/yellowheadshot.jpeg",
+      "desc": "Isobelle Pippin Headshot in yellow",
+      "copy": "Robin Savage"
+    },
+    {
+      "src": "/images/uploads/blackheadshot.jpeg",
+      "desc": "Isobelle Pippin headshot",
+      "copy": "Robin Savage"
+    },
+    {
+      "src": "/images/uploads/249760296_10216318581837749_444922929031158486_n.jpg",
+      "desc": "Pole Fitness",
+      "copy": "Isobelle Pippin"
+    },
+    {
+      "src": "/images/uploads/257598030_10216405953501986_5950943624889928142_n.jpg",
+      "desc": "Pole Fitness",
+      "copy": "Isobelle Pippin"
+    },
+    {
+      "desc": "From The Bottom Of My Heart Promo Image",
+      "src": "/images/uploads/still-ellie.png-smaller.png",
+      "copy": "Ed Palmer"
     }
   ]
 }
