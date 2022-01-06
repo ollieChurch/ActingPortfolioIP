@@ -9,7 +9,6 @@ fetch('../content/media.json')
             
             newImage.setAttribute('src', image.src)
             newImage.setAttribute('alt', image.desc)
-            console.log(newImage)
 
             newContainer.classList.add('gallery_img')
             newContainer.append(newImage)
