@@ -39,19 +39,24 @@
       "copy": "Charlie Hedger"
     },
     {
-      "desc": "As Billie Saunders in 'Sin Salida'",
-      "src": "/images/uploads/246303492_10216281335426612_3925787675366396662_n.jpg",
-      "copy": "Aaron Wright"
+      "src": "/images/uploads/smaller2.jpeg",
+      "desc": "Behind The Scenes 'The Ride Home'",
+      "copy": "Charlie Hedger"
     },
     {
-      "desc": "Promo Image from 'Sin Salida'",
-      "src": "/images/uploads/245449818_10216281335466613_8237103313415222805_n.jpg",
+      "desc": "As Billie Saunders in 'Sin Salida'",
+      "src": "/images/uploads/246303492_10216281335426612_3925787675366396662_n.jpg",
       "copy": "Aaron Wright"
     },
     {
       "src": "/images/uploads/modellingsmaller.jpg",
       "desc": "Modelling",
       "copy": "Broadway Studios"
+    },
+    {
+      "desc": "Promo Image from 'Sin Salida'",
+      "src": "/images/uploads/245449818_10216281335466613_8237103313415222805_n.jpg",
+      "copy": "Aaron Wright"
     },
     {
       "src": "/images/uploads/243049371_10158317513148587_5844764923726771336_n.jpg",
@@ -162,11 +167,6 @@
       "desc": "Modelling",
       "src": "/images/uploads/modelling.jpg",
       "copy": "Broadway Studios"
-    },
-    {
-      "src": "/images/uploads/smaller2.jpeg",
-      "desc": "Behind The Scenes 'The Ride Home'",
-      "copy": "Charlie Hedger"
     }
   ]
 }
